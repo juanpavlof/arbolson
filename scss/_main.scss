@@ -1,0 +1,36 @@
+$margin: 20px;
+
+@mixin box (){
+    color: rgba(0, 0, 0, 0.878);
+    letter-spacing: 1px;
+    font-weight: 900;
+    padding: 10px;
+
+}
+
+.main{
+display: grid;
+grid-template-areas: "main__subtitulo main__subtitulo"
+                    "gridImg gridImg";
+}
+
+.main__subtitulo{
+grid-area: main__subtitulo;
+}
+
+.main__subtitulo {
+grid-area: main__subtitulo;
+border: 3px solid;
+background-color:#f5e3f4;
+}
+
+.main__subtitulo--h1{
+    padding: 15px;
+    @include box;
+    font-size: 25px;
+    text-align: center;
+}
+
+.main__subtitulo--p{ 
+    @include box;
+}
