@@ -70,6 +70,7 @@ a:link, a:hover, a:visited, a:active a {
 
 footer p {
   text-align: right;
+  font-weight: 700;
 }
 
 .item-1 {
